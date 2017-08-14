@@ -12,18 +12,23 @@
     display: block;
     background: white;
   }*/
+#element1 {display:inline-block; align: center;}
+#element2 {display:inline-block; align: center;}
+
 
 .container {
   position: relative;
   width: 800px;
+  align:center;
 }
 
 .image {
-  display:block;
-  width: 800px;
-  height: 700px;
+  display:inline-block;
+  width: 865px;
+  height: 720px;
   border: 0;
   margin: auto;
+  align: center
 }
 
 .overlay {
@@ -34,8 +39,8 @@
   top: 0;
   background-color: rgba(18,105,255,0.5);
   opacity: 0;
-  width: 800px;
-  height: 700px;
+  width: 865px;
+  height: 720px;
   transition: .5s ease;
   filter: color-dodge;
 }
